@@ -1,9 +1,7 @@
 #main {
   max-width: 600px;
   margin: 0 auto; 
-}
-
-#centerbuttons {width:250px;margin:0 auto;}       
+}       
 
 form {
     display: inline;
