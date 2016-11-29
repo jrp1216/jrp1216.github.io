@@ -1,0 +1,42 @@
+#main {
+  max-width: 600px;
+  margin: 0 auto; 
+}
+
+.simple {
+  width: 500px;
+  margin: 20px auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;;
+}
+
+.static {
+  position: static;
+}
+
+section {
+  /* position is static by default */
+  margin-left: 10px;
+}
+
+.box {
+  display: inline-block;
+  width: 200px;
+  height: 100px;
+  margin: 1em;
+}
+
+.three-column {
+  padding: 1em;
+  -moz-column-count: 3;
+  -moz-column-gap: 1em;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 1em;
+  column-count: 3;
+  column-gap: 1em;
+}
+
+.flex-column {
+  -webkit-flex: 1;
+          flex: 1;
+}
